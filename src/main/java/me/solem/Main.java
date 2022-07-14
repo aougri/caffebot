@@ -8,7 +8,7 @@ import me.solem.command.CopyAvatar;
 
 public class Main {
     public static void main(String[] args) {
-        String token = "OTc4ODk4MzM4NjU1MTE3MzEy.GTpvbB.BjPUBYxHGrLCpAHdNSYGVWWak8lEYocsteIQHk";
+        String token = "token-here";
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
 
         //Message Listener
